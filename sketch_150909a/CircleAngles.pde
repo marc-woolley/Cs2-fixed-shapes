@@ -1,9 +1,11 @@
+//This creates a polagon 
 class CircleAngles{
-final float a ;
-final float b   ;
-final float  c    ;
-final float  d     ; 
-PShape s;
+final float a ;//detrmins what the shape will look like
+final float b   ;//extra value
+final float  c    ;//extra value
+final float  d     ;// extra value
+PShape s;//starts shape
+ //intionalizes values
  CircleAngles(float a,float b,float c, float d){
 this.a = a;
    this.b =b;
